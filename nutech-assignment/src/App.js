@@ -4,8 +4,7 @@ import {Router,Routes, Route } from 'react-router';
 import Transaction from './Pages/Transaction';
 import Login from './Pages/Login';
 import  Register  from './Pages/Register';
-import Profile from './Pages/profile';
-
+import Userprofile from './Pages/Userprofile';
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
         <Route path="/transaction" element={<Transaction />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path='/profile' element={<Profile />} />
+        <Route path='/profile' element={<Userprofile />} />
       </Routes>
     </Router>
   );

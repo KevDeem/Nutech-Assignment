@@ -1,9 +1,8 @@
-import {useState, useEffect} from 'react';
-import axios from 'axios';
-import NavbarComponent from "../Components/Nav";
+import NavbarComponent from "./Components/Nav";
+import { useState, useEffect } from "react";
+import axios from "axios";
 
-
-function Profile() {
+function Userprofile() {
     const [user, setUser] = useState(null);
     useEffect(() => {
         const fetchUserData = async () => {
@@ -40,4 +39,4 @@ function Profile() {
   );
 }
 
-export default Profile;
+export default Userprofile;
