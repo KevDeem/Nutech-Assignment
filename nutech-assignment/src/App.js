@@ -4,8 +4,7 @@ import {Router,Routes, Route } from 'react-router';
 import Transaction from './Pages/Transaction';
 import Login from './Pages/Login';
 import  Register  from './Pages/Register';
-import Profile from './Pages/Profile';
-
+import Profile from './Pages/profile';
 
 
 function App() {
