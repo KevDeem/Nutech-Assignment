@@ -1,6 +1,6 @@
 import './App.css';
 import Homepage from './Pages/Homepage';
-import { BrowserRouter as Router,Routes, Route, Switch } from 'react-router';
+import {Router,Routes, Route } from 'react-router';
 import Transaction from './Pages/Transaction';
 import Login from './Pages/Login';
 import  Register  from './Pages/Register';

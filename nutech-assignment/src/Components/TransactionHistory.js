@@ -1,14 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 
 function TransactionHistory() {
-    const [transactions, setTransactions] = useState([]);
-    const fetchTransactions = async () => {
-        axios.get('transactions.json', {
-            headers: {
-                'Content-Type': 'application/json',
-            },
-        })
 
     return (
         <div>
