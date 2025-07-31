@@ -1,9 +1,6 @@
 import Container from 'react-bootstrap/esm/Container';
-import Nav from 'react-bootstrap/esm/Nav';
 import Navbar from 'react-bootstrap/esm/Navbar';
-import NavDropdown from 'react-bootstrap/esm/NavDropdown';
-import Transaction from '../Pages/Transaction';
-import Profile from '../Pages/Profile';
+
 
 
 function NavbarComponent() {

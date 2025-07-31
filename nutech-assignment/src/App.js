@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import React from 'react';
 import Homepage from './Pages/Homepage';
 import { BrowserRouter as Router,Routes, Route, Switch } from 'react-router';
 import Transaction from './Pages/Transaction';
