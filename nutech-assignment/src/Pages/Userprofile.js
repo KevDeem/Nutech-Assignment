@@ -20,6 +20,14 @@ function Userprofile() {
                 console.error('Error fetching user data:', error);
             }
         };
+        const fetchBannerData = async () => {
+            try {
+                const response = await axios.get('https://take-home-test-api.nutech-integrasi.com/banner');
+                console.log('Banner API response:', response.data);
+            } catch (error) {
+                console.error('Error fetching banner data:', error);
+            }
+        }
         fetchUserData();
     }, []);
 
