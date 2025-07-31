@@ -1,4 +1,4 @@
-import NavbarComponent from "./Components/Nav";
+import NavbarComponent from "../Components/Nav";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
