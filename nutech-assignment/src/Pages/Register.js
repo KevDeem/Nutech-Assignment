@@ -38,60 +38,62 @@ function Register() {
   }
 
   return (
-    <div>
-      <h1>hello world</h1>
-    </div>
-    // <div>
-    //   <h1>Register Page</h1>
-    //   <form onSubmit={handleSubmit}>
-    //     <div>
-    //       <label>Email:</label>
-    //       <input
-    //         type="email"
-    //         value={email}
-    //         onChange={e => setEmail(e.target.value)}
-    //         required
-    //       />
-    //     </div>
-    //     <div>
-    //       <label>First Name:</label>
-    //       <input
-    //         type="text"
-    //         value={first_name}
-    //         onChange={e => setFirstName(e.target.value)}
-    //         required
-    //       />
-    //     </div>
-    //     <div>
-    //       <label>Last Name:</label>
-    //       <input
-    //         type="text"
-    //         value={last_name}
-    //         onChange={e => setLastName(e.target.value)}
-    //         required
-    //       />
-    //     </div>
-    //     <div>
-    //       <label>Password:</label>
-    //       <input
-    //         type="password"
-    //         value={password}
-    //         onChange={e => setPassword(e.target.value)}
-    //         required
-    //       />
-    //     </div>
-    //     <div>
-    //       <label>Confirm Password:</label>
-    //       <input
-    //         type="password"
-    //         value={confirmPassword}
-    //         onChange={e => setConfirmPassword(e.target.value)}
-    //         required
-    //       />
-    //     </div>
-    //     <button type="submit">Register</button>
-    //   </form>
-    // </div>
+    <>
+      <div>
+        <h1>hello world</h1>
+      </div>
+      <div>
+        <h1>Register Page</h1>
+        <form onSubmit={handleSubmit}>
+          <div>
+            <label>Email:</label>
+            <input
+              type="email"
+              value={email}
+              onChange={e => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div>
+            <label>First Name:</label>
+            <input
+              type="text"
+              value={first_name}
+              onChange={e => setFirstName(e.target.value)}
+              required
+            />
+          </div>
+          <div>
+            <label>Last Name:</label>
+            <input
+              type="text"
+              value={last_name}
+              onChange={e => setLastName(e.target.value)}
+              required
+            />
+          </div>
+          <div>
+            <label>Password:</label>
+            <input
+              type="password"
+              value={password}
+              onChange={e => setPassword(e.target.value)}
+              required
+            />
+          </div>
+          <div>
+            <label>Confirm Password:</label>
+            <input
+              type="password"
+              value={confirmPassword}
+              onChange={e => setConfirmPassword(e.target.value)}
+              required
+            />
+          </div>
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    </>
   );
 }
 
