@@ -70,7 +70,7 @@ function Homepage() {
           </ul>
         </div>
       )}
-      {service && (
+      {/* {service && (
         <div>
           <h2>Service</h2>
           <ul>
@@ -84,7 +84,7 @@ function Homepage() {
             ))}
           </ul>
         </div>
-      )}
+      )} */}
     </div>
   );
 }
